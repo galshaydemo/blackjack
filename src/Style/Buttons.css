@@ -1,0 +1,13 @@
+.row
+{
+flex:1;
+margin-right:'20px';
+margin-left:'20px';
+display:flex;
+flex-direction:row;
+padding-top:'20px';
+}
+.button
+{
+	margin-left: '20px';
+}

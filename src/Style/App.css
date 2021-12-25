@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-Content {
+  background-color: #582c34;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+}
+
+.close
+{
+    clip-path: polygon(402px 0px,804px 0px,804px 580px,402px 580px);
+}
+.divcard
+{
+
+  width: 400px;
+  height: 580px;
+  border: 2px solid;
+  color: pink;
+  clip-path: polygon(806px 0px,1206px 0px,1206px 580px,806px 580px);
+}
+.diamondace
+{
+  align-content: stretch;
+  background-position-x: -402px;
+  background-position-y: -580px;
+  background-repeat:no-repeat;
+  float:left;
+  display:block;
+  height: 580px;
+
+}
+.diamond2
+{
+    clip-path: polygon(1208px 0px,1608px 0px,1608px 580px,1208px 580px);
+}

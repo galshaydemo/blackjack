@@ -1,0 +1,29 @@
+.row
+{
+display:flex;
+flex:1;
+flex-direction: row;
+justify-Content:space-evenly;
+padding-Top:10px;
+padding-Bottom:10px;
+width:45%
+}
+.divplayercard
+{
+	padding-left:10px;
+}
+.name
+{
+	flex: 1;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	align-self: center;
+}
+.cards
+{
+	flex:5;
+	flex-direction:row;
+	display: flex;
+}
